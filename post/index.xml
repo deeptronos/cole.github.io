@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Deeptronos - Blog</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on Deeptronos - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Sep 2017 16:51:48 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown-Demo</title>
+      <link>http://example.org/post/markdown-test/</link>
+      <pubDate>Sun, 17 Sep 2017 16:51:48 -0500</pubDate>
+      
+      <guid>http://example.org/post/markdown-test/</guid>
+      <description>Header 1 A demo of header 1
+Header 2 A demo of header 2
+Header 3 A demo of header 3
+Header 4 A demo of header 4 #####Header 5 A demo of header 5 ######Header 6 A demo of header 6
+Emphasis, aka italics, with asterisks or underscores.
+Strong emphasis, aka bold, with asterisks or underscores.
+Combined emphasis with asterisks and underscores.
+Strikethrough uses two tildes. Scratch this.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,182 @@
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Lora:400i');
+@font-face { font-family: Shumi; src: url('res/fonts/Shumi.otf') format("opentype"); }
+/*
+--- Non-Google Font Credits ---
+   > Shumi: Created by Ivan Shumikhin, font available at www.behance.net/gallery/26717297/Shumi-Free-font
+*/
+
+body{
+  background-color: #e8e8e8;
+}
+
+.pageTitle{
+  width:        calc(25% + 30px);
+  height:       50px;
+  text-align:   center;
+  font-size:    calc(120%);
+  line-height:  50px;
+  color:        #b1b1b1;
+ 
+  font-family:  'Shumi';
+}
+
+.bg-deeptronosDark{
+	background:#444;
+}
+
+.body-element{
+	text-align: center;
+	justify-content: center;	
+}
+
+.projects-container{
+	background-color: #666;
+}
+.projects-subcontainer{
+	
+	background-color: #444;
+	padding: none;
+	
+	width:100%;
+}
+
+.bodyContainer{
+  display: block;
+  z-index:      1;
+  margin-top:   50px;
+  width:        100%;
+}
+
+.underliner{
+  height: 2px;
+  width: 200px;
+  background: #555;
+  margin: auto;
+  display: block;
+}
+
+
+.subpageTitle{
+  text-align:   center;
+  font-family:  'Josefin Sans', sans-serif;
+  font-weight: lighter;
+  color: #555;
+  font-size: 50px;
+  margin-top: 20px;
+  display: block;
+}
+
+.subpageSubtitle{
+  text-align: center;
+  font-family:  'Josefin Sans', sans-serif;
+  font-weight: 600;
+  color: #555;
+  font-size: 30px;
+  margin-top: 20px;
+  display: block;
+}
+
+.bodyText{
+  text-align: center;
+  font-family:  'Josefin Sans', sans-serif;
+  font-weight: 500;
+  color: #555;
+  font-size: 27px;
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-container{
+  background-color: #444;
+  z-index: 1000;
+}
+
+.sitemap-link{
+  font-family:'Lora', serif;
+  font-size: 15px;
+
+}
+
+.light-text{
+	color:#b1b1b1;
+}
+
+.light-underliner{
+	background: #b1b1b1;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.contact-site-logo-light{
+	margin-top: 10px;
+	object-fit: contain;
+  	width: 148px;
+  	height: 148px;
+  	fill: #b1b1b1;
+  	overflow: visible;
+}
+.contact-site-fa{
+	margin-top: 10px;
+	object-fit: contain;
+  	color: #666;
+  	overflow: visible;
+  	font-size: 148px;
+  	text-decoration: #666;
+}
+.contact-site-fa-light{
+	margin-top: 10px;
+	object-fit: contain;
+  	color: #b1b1b1;
+  	overflow: visible;
+  	font-size: 148px;
+  	text-decoration: #b1b1b1;
+}
+
+.img-thumbnail{
+	border-radius: 0;
+	background-color: #b1b1b1;
+	padding: 0;
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 100%;
+	width: 100%;
+}
+
+.img-fluid{
+	margin-top 30px;
+}
+
+
+
+.carousel-inner > .carousel-item > img {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+.carousel-container{
+	margin-top: 20px;
+	width: 100%;
+	
+	border-radius: 0.25rem !important;
+}
+
+
+/*Custom Scrollbar Properties*/
+
+::-webkit-scrollbar{
+  background: #444;
+  width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+  background: #666;
+  border-radius: 10px ;
+}
